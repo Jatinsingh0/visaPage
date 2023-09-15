@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+body{
+    max-width: 100vw;
+    overflow-x: hidden; 
+  }
+
+.container{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Inter', sans-serif;
+  }
+
+@media screen  and (max-width: 1536px){
+    .wrapper{
+     max-width: 1366px;
+    }
+}
+@media screen and (max-width: 1366px){
+ .wrapper{
+   max-width: 1280px;
+  }
+}
+@media screen and (max-width: 1280px){
+ .wrapper{
+   max-width: 1024px;
+  }
+}
+@media screen and (max-width:1024px){
+    .wrapper{
+        max-width:768px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width:768px){
+     .wrapper{
+         max-width: 640px;
+     }
+}
+@media screen and (max-width:640px){
+    .wrapper{
+        max-width: 475px;
+    }
+}
+
+
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.navbar img{
+    display: flex;
+    text-align: center;
+    flex: 2;
+}
+
+.list{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list button{
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    background-color: yellow;
+    font-weight: 600;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.HamBurger{
+    display: none;
+    width: 20px;
+    height: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+@media screen and (max-width: 1280px){
+
+    .list{
+        font-size: 16px;
+        gap: 25px;
+    }
+    .list button{
+        font-size: 18px;
+        padding: 4px 14px;
+    }
+ }
+ @media screen and (max-width: 1024px){
+    .list{
+        font-size: 14px;
+        gap: 25px;
+    }
+    .list button{
+        font-size: 14px;
+        padding: 4px 16px;
+    }
+  }
+  @media screen and (max-width: 640px){
+    .list{
+        display:none;
+    }
+    .HamBurger{
+        display: flex;
+    }
+  }
+
+
+  /* BANNER */
+
+  .banner{
+    background-image: url("./images/Background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+ .bannerImage{
+    height: 600px;
+ }
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.textContainer h3{
+    font-size: 40px;
+    color:white;
+ }
+
+.textContainer h4{
+    font-size: 30px;
+    color: yellow;
+    font-weight: bolder;
+ }
+
+.bannerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8px;
+    align-items: center;
+    background-color: rgba(18, 7, 88, 0.764);
+    margin-top: 10px;
+    /* border: */
+    padding: 20px;
+    text-align: left;
+ }
+
+ .bannerFormTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+    height: 38px;
+ }
+ .bannerForm input{
+    width: 400px;
+    height: 38px;
+    padding: 0px 20px;
+ }
+.bannerForm button{
+    height: 36px;
+    padding: 0px 40px;
+    background-color: yellow;
+    border: none;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+/* Choose Destination */
+
+.destinations{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.destinationsTittle{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px 140px;
+    border-radius: 28px;
+}
+
+.destination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    height: 48px;
+    font-weight: 600;
+}
+
+.destinationText{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.destinationImage{
+    background-color: violet;
+    margin-top: 20px;
+    height: 160px;
+    width: 300px;
+}
+    
+.destinationText p{
+    height: 22px;
+    font-size: 14px;
+}
+
+.destinationText button{
+    margin-top: 6px;
+    padding: 4px 26px;
+    background-color: yellow;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+/* About Visa */
+
+.about{
+   background-color: lightgray;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+
+.aboutImage{
+    height: 250px;
+    width: 100px;
+    background-color: violet;
+}
+
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutText p{
+    height: 22px;
+}
+
+.aboutTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+.aboutTitle span{
+   color: rgb(8, 8, 98);
+   font-weight: 800;
+}
+
+
+/* Successful students */
+
+.successfulStudents{
+    margin-top: 50px;
+}
+
+.studentsTitle{
+    text-align: center;
+}
+
+.studentsTitle span{
+    color:rgb(8, 8, 98);
+    
+}
