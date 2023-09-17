@@ -20,12 +20,35 @@
                     <a href="">CONTACT</a>
                     <button type="submit">APPLY</button>
                 </div>
-                <div class="HamBurger">
+                <div class="HamBurger" onclick="toggleMenu()">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
                   </div>
+
+                  <div id="responsiveMenu" >
+                    
+                        <a href="#">ABOUT</a>
+                        <a href="#">SERVICES</a>
+                        <a href="#">NEWS</a>
+                        <a href="#">CONTACT</a>
+                        <button type="submit">APPLY</button>
+    
+                </div>
+
             </div>
+
+            <script>
+                function toggleMenu(){
+                    var menu = document.getElementById("responsiveMenu");
+                     if (menu.style.display === "flex") {
+                          menu.style.display = "none";
+                     } else {
+                          menu.style.display = "flex";
+                     }
+                }
+
+            </script>
 
             <!-- BANNER -->
 
