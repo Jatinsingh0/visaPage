@@ -376,6 +376,81 @@ a{
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 415px){
+   
+    .bannerImage{
+        height: 340px;
+     }
+    
+    .textContainer h3{
+        font-size: 26px;
+     }
+    
+    .textContainer h4{
+        font-size: 20px;
+     }
+    
+    .bannerForm{
+        gap:4px;
+        margin-top: 12px;
+        padding: 8px;
+     }
+    
+     .bannerFormTitle{
+        width: 260px;
+        font-weight: bolder;
+        font-size: 16px;
+        height: 24px;
+     }
+     .bannerForm input{
+        width:260px;
+        height: 24px;
+        padding: 0px 16px;
+     }
+    .bannerForm button{
+        height:24px;
+        padding: 0px 40px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 365px){
+   
+    .bannerImage{
+        height: 300px;
+     }
+    
+    .textContainer h3{
+        font-size: 22px;
+     }
+    
+    .textContainer h4{
+        font-size: 18px;
+     }
+    
+    .bannerForm{
+        gap:4px;
+        margin-top: 8px;
+        padding: 8px;
+     }
+    
+     .bannerFormTitle{
+        width: 200px;
+        font-weight: bolder;
+        font-size: 12px;
+        height: 22px;
+     }
+     .bannerForm input{
+        width:200px;
+        height: 22px;
+        padding: 0px 16px;
+     }
+    .bannerForm button{
+        height:20px;
+        padding: 0px 20px;
+        font-size: 10px;
+    }
+}
 /* Choose Destination */
 
 .destinations{
@@ -616,6 +691,56 @@ a{
     }
 }
 
+@media screen and (max-width:378px){
+    .destinations{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+    
+    .destinationsTittle{
+        text-align: center;
+        font-size: 11px;
+        padding: 10px 20px;
+        border-radius: 28px;
+    }
+    
+    .destination{
+        font-size: 8px;
+        flex-wrap: wrap;
+        gap: 8px;
+        height: 40px;
+        font-weight: 600;
+    }
+    
+    .destinationText{
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .destinationImage{
+        margin-top: 4px;
+        height: 120px;
+        width: 240px;
+    }
+        
+    .destinationText p{
+        height: 12px;
+        font-size: 7px;
+        font-weight: bold;
+    }
+    
+    .destinationText button{
+        margin-top: 6px;
+        padding: 4px 20px;
+        font-weight: bolder;
+        font-size: 8px;
+    }
+}
+
 
 /* About Visa */
 
@@ -735,6 +860,54 @@ a{
      .aboutTitle{
          font-size: 24px;
          margin-bottom: 18px;
+      }
+     
+}
+@media screen and (max-width: 415px){
+    .about{
+        gap: 8px;
+        padding-top: 20px;
+     }
+     
+     .aboutImage{
+         height: 220px;
+         width: 100px;
+     }
+     
+     .aboutText p{
+         height:18px;
+         font-size: 7.5px;
+         font-weight: bold;
+         flex-wrap: wrap;
+     }
+     
+     .aboutTitle{
+         font-size: 24px;
+         margin-bottom: 12px;
+      }
+     
+}
+@media screen and (max-width: 333px){
+    .about{
+        gap: 8px;
+        padding-top: 20px;
+     }
+     
+     .aboutImage{
+         height: 180px;
+         width: 100px;
+     }
+     
+     .aboutText p{
+         height:12px;
+         font-size: 6px;
+         font-weight: bold;
+         flex-wrap: wrap;
+     }
+     
+     .aboutTitle{
+         font-size: 24px;
+         margin-bottom: 10px;
       }
      
 }
@@ -937,6 +1110,46 @@ a{
         font-size: 12px;
     }
 }
+@media screen and (max-width: 400px){
+    .successfulStudents{
+        margin-top: 30px;
+    }
+    
+    .studentsTitle{
+        text-align: center;
+    }
+    
+    .mainTitle{
+        font-size: 16px;
+        font-weight: bolder;
+        margin-bottom: 8px;
+    }
+    .storiesContainer{
+        margin-top: 18px;
+        gap: 15px;
+    }
+    .story{
+        gap: 8px;
+        padding: 12px;
+    }
+    
+    .storyImage{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: violet;
+    }
+    
+    .storyTitle{
+        font-weight: 600;
+    }
+    .storyDesc{
+        text-align: center;
+        line-height: 16px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+}
 
 /* Web Stories */
 
@@ -1042,6 +1255,26 @@ a{
         border-radius: 16px;
     }
 }
+@media screen and (max-width: 400px){
+    .webStories{
+        margin-top: 30px;
+        padding: 8px 0px;
+    }
+    
+    .webStories p{
+        font-size: 18px; 
+        margin-bottom: 10px;
+    }
+    
+    .webStoriesImageContainer{
+        gap: 4px;
+    }
+    .webStories img{
+        height:80px;
+        width:40px;
+        border-radius: 8px;
+    }
+}
 
 /* University Partners */
 
@@ -1139,6 +1372,20 @@ a{
         width: 280px;
         height: auto;
     }
+    .universityTitle{
+        font-size: 20px; 
+        margin-bottom: 18px;
+    }
+}
+@media screen and (max-width: 380px){
+    .universityPartnersImage img{
+        width: 220px;
+        height: auto;
+    }
+    .universityTitle{
+        font-size: 18px; 
+        margin-bottom: 18px;
+    }
     
 }
 /* mediaMention */
@@ -1232,6 +1479,20 @@ a{
     .mediaMentionImage img{
         width: 280px;
         height: auto;   
+    }
+    .mediaTitle{
+        font-size: 20px; 
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width:380px){
+    
+    .mediaMentionImage img{
+        width: 220px;
+        height: auto;   
+    }
+    .mediaTitle{
+        font-size: 18px;
     }
 }
 
@@ -1589,6 +1850,73 @@ a{
         border: none;
         font-weight: bolder;
         font-size: 14px;
+        color: white;
+    }
+}
+@media screen and (max-width: 400px){
+
+    .footer{
+        margin-top: 30px;
+        gap: 18px;
+        height: 380px;
+    }
+    
+    .footerText{
+        gap: 8px;
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    
+    .footerTextImg{
+        width: 90px;
+        height: 20px;
+    }
+    
+    .footerText span img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .footerTextNum{
+        gap: 8px;
+    }
+    
+    .footerTextEmail{
+        gap: 8px;
+    }
+    
+    .footerTextAddress{
+        gap: 8px;
+    }
+    
+    .footerForm{
+        gap:6px;
+        padding: 10px;
+    }
+    
+    .footerFormTitle{
+        color: black;
+        font-weight: 900;
+        font-size: 12px;
+    }
+    
+    .footerForm input{
+        width: 200px;
+        height: 30px;
+        padding: 0px 20px;
+        border: none;
+        outline: none;
+     }
+    
+    .footerForm button{
+        width: 200px;
+        height: 30px;
+        padding: 0px 40px;
+        margin-top: 10px;
+        background-color: rgb(13, 13, 149);
+        border: none;
+        font-weight: bolder;
+        font-size: 9px;
         color: white;
     }
 }
