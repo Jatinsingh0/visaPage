@@ -53,12 +53,14 @@ a{
 }
 @media screen and (max-width:768px){
      .wrapper{
-         max-width: 640px;
+         max-width: 100%;
+         padding: 0px;
      }
 }
 @media screen and (max-width:640px){
     .wrapper{
-        max-width: 475px;
+        max-width: 100%;
+        padding: 0px;
     }
 }
 
@@ -194,7 +196,7 @@ a{
     .navbar{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
   }
 
